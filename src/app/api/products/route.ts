@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server';
-
 import connectDb from 'lib/config/db';
 import Category from 'lib/schema/category';
 import Product from 'lib/schema/product';
