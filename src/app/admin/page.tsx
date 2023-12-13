@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Admin',
 };
 const getAnalyticsOrderData = async () => {
-  const request = await fetch('http://localhost:3000/api/analytics/order');
+  const request = await fetch('https://house-design-kohl.vercel.app/api/analytics/order');
   const data = await request.json();
   return data;
 };
